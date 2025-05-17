@@ -690,6 +690,22 @@
             transform: translateY(-5px);
         }
 
+        .banner{
+            background-color: #ff8c00;
+            height:80px;
+            color:white;
+            font-weight: bold;
+            font-size:25px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            border-style: dashed;
+            border-color: #5e3218;
+            font-family: 'Arial';
+        }
+
         /* Animations */
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -775,7 +791,11 @@
           
             nav .navbar .logo a {
               font-size:20px;
-          }
+            }
+
+            .banner{
+                font-size: 15px;
+            }
         }
 
         @media (max-width: 576px) {
