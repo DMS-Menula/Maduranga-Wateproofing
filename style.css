@@ -691,8 +691,11 @@
         }
 
         .banner{
-            background-color: #ff8c00;
-            height:80px;
+            background-image: url("https://homesenator.com/wp-content/uploads/2024/07/5-Benefits-Of-Abseiling-Painters-In-Difficult-To-Reach-Areas.webp");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            height:320px;
             color:white;
             font-weight: bold;
             font-size:25px;
@@ -706,6 +709,17 @@
             font-family: 'Arial';
             border-width: 4px;
             border-radius: 8px;
+        }
+
+        .overlay-banner{
+            background-color: #ff8c00;
+            height: 90px;
+            width:800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.8;
+            border-radius: 5px;            
         }
 
         /* Animations */
