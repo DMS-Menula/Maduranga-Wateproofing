@@ -704,6 +704,8 @@
             border-style: dashed;
             border-color: #5e3218;
             font-family: 'Arial';
+            border-width: 4px;
+            border-radius: 8px;
         }
 
         /* Animations */
